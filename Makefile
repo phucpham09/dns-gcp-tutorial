@@ -27,7 +27,7 @@ install-frontend:
 	cd $(FRONTEND_DIR) && pnpm install
 
 frontend:
-	cd $(FRONTEND_DIR) && pnpm run dev -- -p $(FRONTEND_PORT)
+	cd $(FRONTEND_DIR) && pnpm run dev -p $(FRONTEND_PORT)
 
 dev:
 	@echo "Chạy song song trong 2 terminal:"
