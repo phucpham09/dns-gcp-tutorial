@@ -20,5 +20,9 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+# App chạy từ thư mục backend (uvicorn src.main:app), không publish package — tránh Poetry 2 cài “root project” thiếu packages.
+[tool.poetry]
+package-mode = false
+
 [tool.fastapi]
 entrypoint = "src.main:app"
