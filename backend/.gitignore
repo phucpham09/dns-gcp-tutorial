@@ -1,0 +1,6 @@
+notes.db
+notes.db-journal
+__pycache__/
+*.pyc
+.venv/
+.python-version
