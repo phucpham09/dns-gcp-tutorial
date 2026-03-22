@@ -1,1 +1,7 @@
-**.env
+# Local secrets — do not commit
+backend/.env
+backend/.env.local
+backend/.env.*.local
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
